@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sopa_de_cebollas= "cuatro personas"> 
+    <ingredientes>
+        <Cebolla> 1kg </Cebolla>
+        <Caldo_de_Carne> 2L </Caldo_de_Carne>
+        <Mantequilla> 100 gr </Mantequilla>
+        <Cucharada_de_harina> 1 </Cucharada_de_harina>
+        <Queso_emmental_Suizo> 100 gr </Cucharada_de_harina>
+        <Pan_tostado_en_rebanadas> Varias </Pan_tostado_en_rebanadas>
+        <Hoja_de_laurel> 1 </Hoja_de_laurel>
+    </ingredientes>
+<Proceso> 
+    <primer_paso> Pelar y partir las cebollas en rodajas finas </primer_paso>
+    <segundo_paso> Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse </segundo_paso> 
+    <tercer_paso> Añadir la harina sin dejar de remover </tercer_paso>
+    <cuatro_paso> Ponerlo en una cazuela con el caldo, el tomillo y el laurel </cuatro_paso>
+    <quinto_paso> Dejar cocer a fuego lento durante unos 15 minutos </quinto_paso>
+    <sexto_paso> Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno </sexto_paso>   
+ </Sopa_de_cebollas= "cuatro personas">   

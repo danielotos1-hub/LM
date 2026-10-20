@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios sobre Tablas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            color: #333;
+            margin-top: 40px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        /* Estilo para simular las tablas anidadas con doble borde clásico */
+        table table {
+            margin: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Anexo: Ejercicios sobre tablas</h1>
+
+    <!-- ================= TABLA 1 ================= -->
+    <h2>Tabla 1</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                </table>
+            </td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+
+    <!-- ================= TABLA 2 ================= -->
+    <h2>Tabla 2</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+
+    <!-- ================= TABLA 3 ================= -->
+    <h2>Tabla 3</h2>
+    <table>
+        <tr>
+            <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+        </tr>
+    </table>
+
+    <!-- ================= TABLA 4 ================= -->
+    <h2>Tabla 4</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Celda</td>
+            <td rowspan="4">Celda</td>
+            <td>
+                <table>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                </table>
+            </td>
+            <td rowspan="4">Celda</td>
+        </tr>
+        <!-- Filas vacías ocupadas por el rowspan -->
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+
+    <!-- ================= TABLA 5 ================= -->
+    <h2>Tabla 5</h2>
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                </table>
+            </td>
+            <td rowspan="2">Celda</td>
+            <td rowspan="2">Celda</td>
+            <td rowspan="2">Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+
+    <!-- ================= TABLA 6 ================= -->
+    <h2>Tabla 6</h2>
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                </table>
+            </td>
+            <td rowspan="3">Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+        </tr>
+    </table>
+
+    <!-- ================= TABLA 7 ================= -->
+    <h2>Tabla 7</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+
+</body>
+</html>

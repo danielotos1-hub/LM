@@ -1,0 +1,24 @@
+   <jugador>
+   <datos_personales>
+     <nombre> Cristiano Ronaldo </nombre>
+     <peso> 78kg </peso>
+     <altura> 1,88m </altura>
+     <equipo_actual> Al-nassar <equipo_actual>
+     <mujer> Georgina </mujer>
+     <hijos> cinco hijos </hijos>
+   </datos_personales>
+   </jugador>
+
+   <jugador2>
+   <datos_personales> 
+     <nombre> Vinicius Jr </nombre> 
+     <peso> 73kg </peso>
+     <altura> 1,76m </altura>
+     <equipo_actual> Real Madrid </equipo_actual> 
+     <mujer> Virginia </mujer>
+     <hijos> No tiene hijos </hijos> 
+   </datos_personales>
+   </jugador2>
+</top10>
+
+   

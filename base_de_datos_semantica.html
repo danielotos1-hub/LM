@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de datos semantica</title>
+</head>
+<body>
+<header>
+    <h1>Introducción a las Bases de Datos</h1>
+    <nav>
+        <ul>
+        <li><a href='#Conceptosytipos'>Concepto y tipos</a></li>
+        <li><a href='#EstucturaDeDatos'>Estructura de Datos</a></li>
+        <li><a href='#Relaciones'>Relaciones</a></li> 
+        <li><a href="#RecursosDeInteres">Recursos de interes</a></li>
+        </ul>  
+    </nav>
+</header>
+<main>
+    <section>
+        <h2 id='Comceptosytipos'>Comceptos y Tipos</h2>
+        <article>
+            <h3>Base de datos relacionales</h3>
+            <p>Una base de datos relacional (RDBMS) es un sistema que organiza y 
+                administra los datos en tablas bidimensionales estructuradas.
+                Estas tablas permiten almacenar y relacionar 
+                la información de forma lógica y eficiente.</p>
+            <h3>Base de datos no relacionales</h3>
+            <p>Una base de datos no relacional (NoSQL) es un sistema de almacenamiento diseñado para gestionar datos no estructurados o semiestructurados. 
+                A diferencia de los sistemas tradicionales, 
+                no utiliza la rigidez de las tablas basadas en filas y columnas, 
+                lo que le permite ofrecer una gran flexibilidad y una alta escalabilidad horizontal
+                para manejar grandes volúmenes de información dinámica.
+            </p>
+        </article>
+    </section>
+<section>
+    <h2>Estructura de una Base de Datos Relacional</h2>
+    <article>
+        <ul>
+            <li><p> Tablas (Entidades): Estructuras donde se organizan los datos.</p></li>
+            <li><p>Campos (Atributos): Columnas que definen la tipología de información.</p></li>
+            <li><p>Registros (Tuplas): Filas que contienen cada instancia concreta de datos.</p></li>
+            <li><p>Claves primarias (Primary Keys): Identificadores únicos de cada registro.</p></li>
+        </ul>
+    </article>
+</section>
+<section>
+    <h2>Las Relaciones en RDBMS</h2>
+    <article>
+        <h3>Las Cardinales Fundamentales</h3>
+        <ul>
+            <li><p>Relación 1:1 (Uno a Uno) :(ocurre cuando un registro de una tabla se asocia exclusivamente con un único registro de otra tabla, y viceversa.)</p></li>
+            <li><p>Relación 1:N (Uno a Muchos) :(ocurre cuando un registro de una tabla principal puede asociarse con varios registros de otra tabla secundaria, pero cada registro de la tabla secundaria pertenece a un único registro de la tabla principal)</p></li>
+             <li><p>Relación N:M (Muchos a muchos):ocurre cuando múltiples registros de una tabla pueden asociarse con múltiples registros de otra tabla.</p></li>
+             <li><p>Foreign key:Campo que une dos tablas en una relacion.</p></li>
+        </ul>
+    </article>
+</section>
+<aside>
+    <h3>Glosario de terminos</h3>
+    <ul>
+        <li><p>SQL:Es un entorno de desarrollo integrado (IDE) gratuito y basado en Java desarrollado por Oracle</p></li>
+        <li><p>SGBD:Es un software especializado que sirve de interfaz entre la base de datos, los usuarios y las aplicaciones.</p></li>
+    </ul>
+</aside>
+
+</main>
+</body>
+</html>
